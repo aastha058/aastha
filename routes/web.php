@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\TaxController;
 use Illuminate\Support\Facades\Route;
-<<<<<<< HEAD
 use App\Http\Controllers\IndexController;
 
 Route::get('/', [IndexController::class, 'index'])->name('base.index');
@@ -16,7 +15,6 @@ Route::get('/section', [IndexController::class, 'section'])->name('base.section'
 Route::get('/micro', [IndexController::class, 'micro'])->name('base.micro');
 Route::get('/nidhi', [IndexController::class, 'nidhi'])->name('base.nidhi');
 
-=======
 Route::get('/', [TaxController::class, 'index'])->name('contact.index');
 Route::get('/new', [taxController::class, 'new'])->name('new');
 Route::get('/service', [taxController::class, 'serviceitr'])->name('service');
@@ -24,4 +22,3 @@ Route::get('/gst', [taxController::class, 'Gst'])->name('gst');
 Route::get('/return', [taxController::class, 'return'])->name('return');
 Route::get('/income', [taxController::class, 'Income'])->name('income');
 Route::get('/tds', [taxController::class, 'Tds'])->name('tds');
->>>>>>> e7d6f48c5eff189ea34e9bd39121837844c05ce6
