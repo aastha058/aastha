@@ -9,9 +9,6 @@ use App\Http\Controllers\IndexController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-
-
 Route::get('/login', [AasthsController::class, 'login'])->name('login');
 Route::get('/home', [AasthsController::class, 'home'])->name('home');
 Route::get('/',[AasthsController::class, 'welcome'])->name('welcome');
@@ -38,4 +35,4 @@ Route::get('/gst', [taxController::class, 'Gst'])->name('gst');
 Route::get('/return', [taxController::class, 'return'])->name('return');
 Route::get('/income', [taxController::class, 'Income'])->name('income');
 Route::get('/tds', [taxController::class, 'Tds'])->name('tds');
->>>>>>> ccc1fadd18bdad90fbdb7526d7582d8a821db428
+
