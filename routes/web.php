@@ -15,7 +15,7 @@ Route::get('/section', [IndexController::class, 'section'])->name('base.section'
 Route::get('/micro', [IndexController::class, 'micro'])->name('base.micro');
 Route::get('/nidhi', [IndexController::class, 'nidhi'])->name('base.nidhi');
 
-Route::get('/', [TaxController::class, 'index'])->name('contact.index');
+Route::get('/front', [TaxController::class, 'index'])->name('contact.index');
 Route::get('/new', [taxController::class, 'new'])->name('new');
 Route::get('/service', [taxController::class, 'serviceitr'])->name('service');
 Route::get('/gst', [taxController::class, 'Gst'])->name('gst');
