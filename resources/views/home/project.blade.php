@@ -1,4 +1,4 @@
-@extends('base.header')
+@extends('home.header')
 
 @section('title')
   Project | 
