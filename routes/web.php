@@ -26,7 +26,7 @@ Route::get('/index2',[AasthsController::class, 'index2'])->name('index2');
 Route::get('/index3',[AasthsController::class, 'index3'])->name('index3');
 
 Route::get('/', [IndexController::class, 'index'])->name('base.index');
-Route::get('/appointment', [IndexController::class, 'apoint'])->name('base.appointment');
+Route::get('/appointment', [IndexController::class, 'appointment'])->name('base.appointment');
 Route::get('/homepri', [IndexController::class, 'homes'])->name('base.homepri');
 Route::get('/oneperson', [IndexController::class, 'oneperson'])->name('base.oneperson');
 Route::get('/limited', [IndexController::class, 'limited'])->name('base.limited');
@@ -43,4 +43,3 @@ Route::get('/gst', [taxController::class, 'Gst'])->name('gst');
 Route::get('/return', [taxController::class, 'return'])->name('return');
 Route::get('/income', [taxController::class, 'Income'])->name('income');
 Route::get('/tds', [taxController::class, 'Tds'])->name('tds');
-

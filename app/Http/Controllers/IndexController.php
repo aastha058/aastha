@@ -10,7 +10,7 @@ class IndexController extends Controller
     {
         return view('base.index');
     }   
-    public function apoint()
+    public function appointment()
     {      
           return view('base.appointment');
     }

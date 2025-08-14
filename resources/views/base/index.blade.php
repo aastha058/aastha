@@ -805,7 +805,7 @@
                     <h1 class="hero-title">Professional Tax Solutions <span class="text-warning">Made Simple</span></h1>
                     <p class="hero-subtitle">Streamline your tax filing process with our expert services and cutting-edge technology built on taxation.</p>
                     <div>
-                        <a href="{{ route('apoint') }}" class="btn btn-primary me-3">Make Appoinment</a>
+                        <a href="{{ route('base.appointment') }}" class="btn btn-primary me-3">Make Appoinment</a>
                         <a href="#contact" class="btn btn-outline-light">Partner with Us</a>
                     </div>
                     <div class="d-flex align-items-center mt-4">
