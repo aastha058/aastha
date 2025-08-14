@@ -775,16 +775,15 @@
         Business
     </a>
     <ul class="dropdown-menu" aria-labelledby="businessDropdown">
-        <li><a class="dropdown-item" href="#">Digital Signature Certificate(DSC)</a></li>
-        <li><a class="dropdown-item" href="#">Project/Report Financing</a></li>
-        <li><a class="dropdown-item" href="#">Secretarial Compliance</a></li>
-        <li><a class="dropdown-item" href="#">Bulk SMS/Email</a></li>
-        <li><a class="dropdown-item" href="#">Accounting/Book Keeping</a></li>
-
+        <li><a class="dropdown-item" href="{{route('home.dsc')}}">Digital Signature Certificate(DSC)</a></li>
+        <li><a class="dropdown-item" href="{{route('home.reports')}}">Project/Report Financing</a></li>
+        <li><a class="dropdown-item" href="{{route('home.sc')}}">Secretarial Compliance</a></li>
+        <li><a class="dropdown-item" href="{{route('home.bulk')}}">Bulk SMS/Email</a></li>
+        <li><a class="dropdown-item" href="{{route('home.account')}}">Accounting/Book Keeping</a></li>
     </ul>
 </li>
        
-                    <li class="nav-item">
+                    <li class="nav-item">+
                         <a class="nav-link" href="#testimonials">TDS</a>
                     </li>
                     <li class="nav-item">
