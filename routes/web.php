@@ -17,13 +17,13 @@ use App\Http\Controllers\IndexController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login', [AasthsController::class, 'login'])->name('login');
-Route::get('/home', [AasthsController::class, 'home'])->name('home');
-Route::get('/',[AasthsController::class, 'welcome'])->name('welcome');
-Route::get('/index',[AasthsController::class, 'index'])->name('index');
-Route::get('/index1',[AasthsController::class, 'index1'])->name('index1');
-Route::get('/index2',[AasthsController::class, 'index2'])->name('index2');
-Route::get('/index3',[AasthsController::class, 'index3'])->name('index3');
+Route::get('/login', [AasthsController::class, 'login'])->name('parent1.login');
+Route::get('/home', [AasthsController::class, 'home'])->name('parent1.home');
+Route::get('/wellcome',[AasthsController::class, 'welcome'])->name('parent1.welcome');
+Route::get('/index',[AasthsController::class, 'index'])->name('parent1.index');
+Route::get('/index1',[AasthsController::class, 'index1'])->name('parent1.index1');
+Route::get('/index2',[AasthsController::class, 'index2'])->name('parent1.index2');
+Route::get('/index3',[AasthsController::class, 'index3'])->name('parent1.index3');
 
 Route::get('/', [IndexController::class, 'index'])->name('base.index');
 Route::get('/appointment', [IndexController::class, 'appointment'])->name('base.appointment');
