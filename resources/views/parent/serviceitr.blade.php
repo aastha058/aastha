@@ -1,4 +1,4 @@
-@extends('header')
+@extends('parent.header')
 
 @section('title', 'Company ITR Filing Services')
 

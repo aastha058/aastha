@@ -732,11 +732,11 @@
         Taxations
     </a>
     <ul class="dropdown-menu" aria-labelledby="taxationsDropdown">
-        <li><a class="dropdown-item" href="#">Individual ITR</a></li>
-        <li><a class="dropdown-item" href="#">Company/Firm/LLP ITR</a></li>
-        <li><a class="dropdown-item" href="#">GST Register</a></li>
-         <li><a class="dropdown-item" href="#">GST Return</a></li>
-          <li><a class="dropdown-item" href="#">Income Tax Notice and Compliance</a></li>
+        <li><a class="dropdown-item" href="{{route("parent.service")}}">Individual ITR</a></li>
+        <li><a class="dropdown-item" href="{{route("parent.new")}}">Company/Firm/LLP ITR</a></li>
+        <li><a class="dropdown-item" href="{{route("parent.gst")}}">GST Register</a></li>
+         <li><a class="dropdown-item" href="{{route("parent.return")}}">GST Return</a></li>
+          <li><a class="dropdown-item" href="{{route("parent.income")}}">Income Tax Notice and Compliance</a></li>
     </ul>
 </li>
 
@@ -745,14 +745,14 @@
         Company
     </a>
     <ul class="dropdown-menu" aria-labelledby="companyDropdown">
-        <li><a class="dropdown-item" href="#">Private Limited Company</a></li>
-        <li><a class="dropdown-item" href="#">One Person Company (OPC)</a></li>
-        <li><a class="dropdown-item" href="#">Limited Liability Partnership(LLP)</a></li>
-        <li><a class="dropdown-item" href="#">Public Company</a></li>
-        <li><a class="dropdown-item" href="#">Producer Company</a></li>
-        <li><a class="dropdown-item" href="#">Nidhi Company</a></li>
-        <li><a class="dropdown-item" href="#">Section8 Company(NPO)</a></li>
-        <li><a class="dropdown-item" href="#">Micro Finance Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.homepri') }} ">Private Limited Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.oneperson') }}">One Person Company (OPC)</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.limited') }}">Limited Liability Partnership(LLP)</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.pink') }}">Public Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.objectpro') }}">Producer Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.nidhi') }}">Nidhi Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.section') }}">Section8 Company(NPO)</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.micro') }}">Micro Finance Company</a></li>
     </ul>
 </li>
 
@@ -785,10 +785,10 @@
 </li>
        
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">TDS</a>
+                        <a class="nav-link" href="{{route("parent.tds")}}">TDS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="{{route("parent.contact")}}">Contact</a>
                     </li>
                 </ul>
                 <a href="#contact" class="btn btn-primary ms-lg-3 animate-pulse">login</a>
