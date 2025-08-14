@@ -745,14 +745,14 @@
         Company
     </a>
     <ul class="dropdown-menu" aria-labelledby="companyDropdown">
-        <li><a class="dropdown-item" href="#">Private Limited Company</a></li>
-        <li><a class="dropdown-item" href="#">One Person Company (OPC)</a></li>
-        <li><a class="dropdown-item" href="#">Limited Liability Partnership(LLP)</a></li>
-        <li><a class="dropdown-item" href="#">Public Company</a></li>
-        <li><a class="dropdown-item" href="#">Producer Company</a></li>
-        <li><a class="dropdown-item" href="#">Nidhi Company</a></li>
-        <li><a class="dropdown-item" href="#">Section8 Company(NPO)</a></li>
-        <li><a class="dropdown-item" href="#">Micro Finance Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.homepri') }} ">Private Limited Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.oneperson') }}">One Person Company (OPC)</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.limited') }}">Limited Liability Partnership(LLP)</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.pink') }}">Public Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.objectpro') }}">Producer Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.nidhi') }}">Nidhi Company</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.section') }}">Section8 Company(NPO)</a></li>
+        <li><a class="dropdown-item" href="{{ route('base.micro') }}">Micro Finance Company</a></li>
     </ul>
 </li>
 
