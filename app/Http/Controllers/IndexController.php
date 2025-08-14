@@ -31,7 +31,7 @@ class IndexController extends Controller
     }
     public function object()
     {
-        return view('base.object');
+        return view('base.objectpro');
     }
 
     public function section()
