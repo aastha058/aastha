@@ -8,30 +8,30 @@ class AasthsController extends Controller
 {
         public function login()
     {
-        return view('login');
+        return view('parent1.login');
     }
     public function welcome()
     {
-        return view('welcome');
+        return view('parent1.welcome');
     }
     public function index()
     {
-        return view('index');
+        return view('parent1.index');
     }
     public function index1()
     {
-        return view('index1');
+        return view('parent1.index1');
     }
     public function index2()
     {
-        return view('index2');
+        return view('paremt1.index2');
     }
     public function index3()
     {
-        return view('index3');
+        return view('parent1.index3');
     }
     public function home()
     {
-        return view('home');
+        return view('parent1.home');
     }
 }
