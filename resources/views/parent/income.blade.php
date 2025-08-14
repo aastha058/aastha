@@ -1,4 +1,4 @@
-@extends('header')
+@extends('parent.header')
 
 @section('title', 'Income Tax')
 
