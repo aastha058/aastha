@@ -18,8 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login', [AasthsController::class, 'login'])->name('parent1.login');
-Route::get('/home', [AasthsController::class, 'home'])->name('parent1.home');
-Route::get('/wellcome',[AasthsController::class, 'welcome'])->name('parent1.welcome');
+Route::get('/wellcome',[AasthsController::class, 'welcome'])->name('welcome');
 Route::get('/index',[AasthsController::class, 'index'])->name('parent1.index');
 Route::get('/index1',[AasthsController::class, 'index1'])->name('parent1.index1');
 Route::get('/index2',[AasthsController::class, 'index2'])->name('parent1.index2');

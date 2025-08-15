@@ -12,7 +12,7 @@ class AasthsController extends Controller
     }
     public function welcome()
     {
-        return view('parent1.welcome');
+        return view('welcome');
     }
     public function index()
     {
@@ -24,7 +24,7 @@ class AasthsController extends Controller
     }
     public function index2()
     {
-        return view('paremt1.index2');
+        return view('parent1.index2');
     }
     public function index3()
     {
